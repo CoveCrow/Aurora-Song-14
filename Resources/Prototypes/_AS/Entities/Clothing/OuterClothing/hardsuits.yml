@@ -12,19 +12,21 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSleCombat
   - type: ExplosionResistance
-    damageCoefficient: 0.4
+    damageCoefficient: 0.5 # nerf 60 - 50% to be on par with debranded/milsurp suits
+  - type: StaminaResistance
+    damageCoefficient: 0.75 #added stamina resistance to be on par with debranded/milsurp suits
   - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.5
-        Slash: 0.6
-        Piercing: 0.55 #buff 40% to 45% piercing resist
-        Heat: 0.60
+        Slash: 0.5 #buff 40 - 50% to be on par with debranded/milsurp suits
+        Piercing: 0.50 #buff 40% to 45% piercing resist / buff 45 - 50% to be on par with debranded/milsurp hardsuits
+        Heat: 0.5 #buff 40 - 50% to be on par with debranded/mislurp suits
         Radiation: 0.50
-        Caustic: 0.7
+        Caustic: 0.5 #buff 30 - 50% to be on par with debranded/milsurp suits
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
-    sprintModifier: 0.85 #increased speed from .75 to .85, this suit can be painful to wear because of the speed
+    walkModifier: 0.9
+    sprintModifier: 0.9 #increased speed from .75 to .85, this suit can be painful to wear because of the speed / increased speed from .85 - .9 to be on par with debranded/milsurp suits
 
 - type: entity
   parent: ClothingOuterHardsuitSleCombat
