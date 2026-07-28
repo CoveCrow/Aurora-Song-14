@@ -32,8 +32,8 @@
       - id: WeaponCaseLongVulcanExpedition
       - id: ASPlasmaRifleScourer
       - id: WeaponCaseLongAtreidesExpedition
-      - id: Telecrystal1
-      - id: Telecrystal5
+      - id: #Telecrystal1 - removed from lootpool
+      - id: #Telecrystal5 - removed from lootpool
       - id: FoodCakeSlime
       - id: SpaceCash30000
       - id: SpaceCash10000
