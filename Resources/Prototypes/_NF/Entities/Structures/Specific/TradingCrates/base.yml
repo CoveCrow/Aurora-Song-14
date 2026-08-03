@@ -130,4 +130,4 @@
     id: ContrabandCrate
   - type: AdditionalPalletCurrency
     currency: Telecrystal
-    prob: 0.5
+    prob: 0.5 # auroas song increase to probability, previously .134
